@@ -18,14 +18,14 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
   s.extra_rdoc_files = ["README.md", "MIT_LICENSE.txt"]
 
-  s.add_dependency 'activeadmin', '~> 0.5'
-  s.add_dependency 'rails', '~> 3.1'
+  s.add_dependency 'activeadmin', '>= 0.5'
+  s.add_dependency 'rails', '>= 3.1'
 
   s.add_development_dependency 'shoulda'
   s.add_development_dependency 'sqlite3'
   s.add_development_dependency 'mocha'
-  s.add_development_dependency 'bundler', '~> 1.0'
+  s.add_development_dependency 'bundler', '>= 1.0'
   s.add_development_dependency 'capybara'
   s.add_development_dependency 'database_cleaner'
-  s.add_development_dependency 'factory_girl_rails', '~> 1.7'
+  s.add_development_dependency 'factory_girl_rails', '>= 1.7'
 end
